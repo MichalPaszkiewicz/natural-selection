@@ -1,0 +1,51 @@
+﻿body 
+{
+	height:100%;
+	width:100%;
+	margin: 0px;
+}
+
+canvas
+{
+	border: solid 1px black;	
+	cursor:pointer;
+}
+
+.wrapper
+{
+	margin: auto;
+	width: 500px;
+}
+
+h1, h2, h3
+{
+	text-align: center;
+}
+
+.counter
+{
+	display: inline-block;
+}
+
+table
+{
+	  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th
+{
+	border: solid black 1px;
+	min-width: 60px;
+	text-align: center;
+}
+
+td:nth-child(odd), th:nth-child(odd)
+{
+	background: rgb(243, 243, 157);
+}
+
+td:nth-child(even), th:nth-child(even)
+{
+	background: rgb(208, 219, 243);
+}
