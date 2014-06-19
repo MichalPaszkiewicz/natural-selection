@@ -14,7 +14,8 @@ canvas
 .wrapper
 {
 	margin: auto;
-	width: 500px;
+	max-width: 800px;
+	text-align: center;
 }
 
 h1, h2, h3
@@ -29,9 +30,10 @@ h1, h2, h3
 
 table
 {
-	  border-collapse: collapse;
-  border-spacing: 0;
-}
+	border-collapse: collapse;
+  	border-spacing: 0;
+  	margin: auto;
+}	
 
 td, th
 {
